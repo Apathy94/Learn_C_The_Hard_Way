@@ -16,7 +16,7 @@ void set_age(int age)
     THE_AGE = age;
 }
 
-double update_age(double new_ratio)
+double update_ratio(double new_ratio)
 {
     static double ratio = 1.0;
     
@@ -28,5 +28,5 @@ double update_age(double new_ratio)
 
 void print_size()
 {
-    log("I think size is : %d", THE_SIZE);
+    log_info("I think size is : %d", THE_SIZE);
 }

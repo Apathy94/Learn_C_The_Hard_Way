@@ -18,7 +18,7 @@ void scope_demo(int count)
 
     count = 3000;
 
-    log_info("count in this scope is %d", count)
+    log_info("count in this scope is %d", count);
 }
 
 int main(int argc, char *argv[])
@@ -32,12 +32,12 @@ int main(int argc, char *argv[])
 
     // test out THE_SIZE extern
     log_info("THE_SIZE is: %d", THE_SIZE);
-    printf_size();
+    print_size();
 
     THE_SIZE = 9;
 
     log_info("THE SIZE is now: %d", THE_SIZE);
-    printf_size();
+    print_size();
 
     // test the ratio function static
     log_info("Ratio at first: %f", update_ratio(2.0));
